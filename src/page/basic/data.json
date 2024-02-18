@@ -1,0 +1,365 @@
+{ 
+  "header": {
+    "logo": {
+      "src": "logo.svg",
+      "alt": "DDOS-GUARD"
+    },
+    "links": [
+      {
+        "title": "header.links.bissines.title",
+        "anchor": "#bissines"
+      },
+      {
+        "title": "header.links.tariff.title",
+        "anchor": "#tariff"
+      },
+      {
+        "title": "header.links.advantages.title",
+        "anchor": "#advantages"
+      },
+      {
+        "title": "header.links.partners.title",
+        "anchor": "#partners"
+      },
+      {
+        "title": "header.links.experts.title",
+        "anchor": "#experts"
+      },
+      {
+        "title": "header.links.reviews.title",
+        "anchor": "#reviews"
+      }
+    ],
+    "phone": {
+      "href": "header.phone.href",
+      "number": "header.phone.number",
+      "img": {
+        "src": "icons/header/phone.svg",
+        "alt": "header.phone.img.alt"
+      }
+    },
+    "btn": {
+      "link": "https://my.ddos-guard.net/cabinet/create-proxy-wizard?productId=106&currency=RUB",
+      "id": "btn-lp-retarget-basic-header",
+      "title": "header.btn.title"
+    }
+  },
+  "banner": {
+    "title": "banner.title",
+    "subTitle": "banner.subTitle",
+    "img": "banner/bannerImg.svg",
+    "list": [
+      "banner.list.protection", 
+      "banner.list.noextra", 
+      "banner.list.loading", 
+      "banner.list.limit"
+    ],
+    "btn": {
+      "title": "banner.btn.title",
+      "id": "btn-lp-retarget-basic-firstscreen",
+      "link": "https://my.ddos-guard.net/cabinet/create-proxy-wizard?productId=106&currency=RUB"
+    }
+  },
+  "bisiness": {
+    "title": "bisiness.title",
+    "problems": [
+      {
+        "img": "icons/biz/biz1.svg",
+        "problemTitle": "bisiness.problems.slow.problemTitle",
+        "problemDetails":
+          "bisiness.problems.slow.problemDetails",
+        "answerTitle": "bisiness.problems.slow.answerTitle",
+        "answerDetails":
+          "bisiness.problems.slow.answerDetails"
+      },
+      {
+        "img": "icons/biz/biz2.svg",
+        "problemTitle": "bisiness.problems.inaccessibility.problemTitle",
+        "problemDetails":
+          "bisiness.problems.inaccessibility.problemDetails",
+        "answerTitle": "bisiness.problems.inaccessibility.answerTitle",
+        "answerDetails":
+          "bisiness.problems.inaccessibility.answerDetails"
+      }
+    ]
+  },
+  "tariff": {
+    "title": "tariff.title",
+    "details":"tariff.details",
+    "tooltipContent": "Оплата в рублях при подтвержденном номере телефона +7 в личном кабинете",
+    "plan": [
+        {
+          "title": "tariff.plan.title",
+          "price": "tariff.price",
+          "month": "tariff.month",
+          "options": [
+            "tariff.plan.options.domain",
+            "tariff.plan.options.unlimited",
+            "tariff.plan.options.block",
+            "tariff.plan.options.cdn",
+            "tariff.plan.options.ip",
+            "tariff.plan.options.cache",
+            "tariff.plan.options.guaranteed",
+            "tariff.plan.options.ssl",
+            "tariff.plan.options.geo"
+          ],
+          "btn": {
+            "title": "tariff.btn.title",
+            "id": "btn-lp-retarget-basic-tarif",
+            "link": "https://my.ddos-guard.net/cabinet/create-proxy-wizard?productId=106&currency=RUB"
+          }
+        }
+      ]
+  },
+  "advantages": {
+    "title": "advantages.title",
+    "cards": [
+      {
+        "img": "icons/advantages/a1.svg",
+        "title": "advantages.cards.hidden.title",
+        "details": "advantages.cards.hidden.details"
+      },
+      {
+        "img": "icons/advantages/a2.svg",
+        "title": "advantages.cards.free.title",
+        "details": "advantages.cards.free.details"
+      },
+      {
+        "img": "icons/advantages/a3.svg",
+        "title": "advantages.cards.time.title",
+        "details": "advantages.cards.time.details"
+      },
+      {
+        "img": "icons/advantages/a4.svg",
+        "title": "advantages.cards.network.title",
+        "details": "advantages.cards.network.details"
+      },
+      {
+        "img": "icons/advantages/a5.svg",
+        "title": "advantages.cards.data.title",
+        "details": "advantages.cards.data.details"
+      },
+      {
+        "img": "icons/advantages/a6.svg",
+        "title": "advantages.cards.service.title",
+        "details": "advantages.cards.service.details"
+      }
+    ]
+  },
+  "partners": {
+    "title": "partners.title",
+    "cards": [
+      {
+        "img": "partners.cards.parner1.img",
+        "alt": "partners.cards.parner1.alt"
+      },
+      {
+        "img": "partners.cards.parner2.img",
+        "alt": "partners.cards.parner2.alt"
+      },
+      {
+        "img": "partners.cards.parner3.img",
+        "alt": "partners.cards.parner3.alt"
+      },
+      {
+        "img": "partners.cards.parner4.img",
+        "alt": "partners.cards.parner4.alt"
+      },
+      {
+        "img": "partners.cards.parner5.img",
+        "alt": "partners.cards.parner5.alt"
+      },
+      {
+        "img": "partners.cards.parner6.img",
+        "alt": "partners.cards.parner6.alt"
+      },
+      {
+        "img": "partners.cards.parner7.img",
+        "alt": "partners.cards.parner7.alt"
+      },
+      {
+        "img": "partners.cards.parner8.img",
+        "alt": "partners.cards.parner8.alt"
+      },
+      {
+        "img": "partners.cards.parner9.img",
+        "alt": "partners.cards.parner9.alt"
+      },
+      {
+        "img": "partners.cards.parner10.img",
+        "alt": "partners.cards.parner10.alt"
+      },
+      {
+        "img": "partners.cards.parner11.img",
+        "alt": "partners.cards.parner11.alt"
+      },
+      {
+        "img": "partners.cards.parner12.img",
+        "alt": "partners.cards.parner12.alt"
+      },
+      {
+        "img": "partners.cards.parner13.img",
+        "alt": "partners.cards.parner13.alt",
+        "hide": "en"
+      },
+      {
+        "img": "partners.cards.parner14.img",
+        "alt": "partners.cards.parner14.alt",
+        "hide": "en"
+      },
+      {
+        "img": "partners.cards.parner15.img",
+        "alt": "partners.cards.parner15.alt",
+        "hide": "en"
+      }
+    ]
+  },
+  "experts": {
+    "title": "experts.title",
+    "details": "experts.details",
+    "img": "experts/experts.png",
+    "btn": {
+      "title": "experts.btn.title",
+      "id": "btn-lp-retarget-basic-support"
+    }
+  },
+  "reviews": {
+    "title": "reviews.title",
+    "subtitle": "review.subtitle",
+    "slides": [
+      {
+        "img": "reviews/p1.svg",
+        "alt": "review.slides.slide1.alt",
+        "text": "review.slides.slide1.text",
+        "name": "review.slides.slide1.name",
+        "prof": "review.slides.slide1.prof"
+      },
+      {
+        "img": "reviews/p2.svg",
+        "alt": "review.slides.slide2.alt",
+        "text": "review.slides.slide2.text",
+        "name": "review.slides.slide2.name",
+        "prof": "review.slides.slide2.prof"
+      },
+      {
+        "img": "reviews/p3.svg",
+        "alt": "review.slides.slide3.alt",
+        "text": "review.slides.slide3.text",
+        "name": "review.slides.slide3.name"
+      }
+    ]
+  },
+  "protect": {
+    "title": "protect.title",
+    "subtitle": "protect.subtitle",
+    "btn": {
+      "title": "protect.btn.title",
+      "id": "btn-lp-retarget-basic-lastscreen",
+      "link": "https://my.ddos-guard.net/cabinet/create-proxy-wizard?productId=106&currency=RUB"
+    }
+  },
+  "footer": {
+    "infos": [
+      {
+        "title": "footer.infos.email.title",
+        "link": "footer.infos.email.link",
+        "img": "footer/mail.svg",
+        "alt": "footer.infos.email.alt"
+      },
+      {
+        "title": "footer.infos.phone.title",
+        "link": "footer.infos.phone.link",
+        "img": "footer/tel.svg",
+        "alt": "footer.infos.phone.alt"
+      },
+      {
+        "title": "footer.infos.telegram.title",
+        "link": "footer.infos.telegram.link",
+        "img": "footer/telega.svg",
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "alt": "footer.infos.telegram.alt",
+        "hide": "en"
+      }
+    ],
+    "politics": [
+      {
+        "title": "footer.politics.policy.title",
+        "link": "footer.politics.policy.link",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "title": "footer.politics.service.title",
+        "link": "footer.politics.service.link",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    ]
+  },
+  "modal": {
+    "title": "modal.head.title",
+    "details": "modal.head.details"
+  },
+  "feedBackForm": {
+    "id": "modal-feedback-form-basic",
+    "name": "modal-feedback-form-basic",
+    "inputs": {
+      "nameInput": {
+        "labelName": "form.nameInput.labelName",
+        "id": "lp-retarget-support-form-name",
+        "type": "text",
+        "name": "name"
+      },
+      "emailInput": {
+        "labelName": "Email",
+        "id": "lp-retarget-support-form-email",
+        "type": "email",
+        "name": "email"
+      },
+      "phoneInput": {
+        "labelName": "form.phoneInput.labelName",
+        "id": "lp-retarget-support-form-phone",
+        "type": "tel",
+        "name": "phone_string",
+        "vmask": "form.phoneInput.vmask",
+        "placeholder": "form.phoneInput.placeholder"
+      },
+      "textarea": {
+        "labelName": "form.phoneInput.textarea",
+        "id": "lp-retarget-support-form-message",
+        "name": "comment"
+      },
+      "checkbox": {
+        "id": "feedback-form-privacy-checkbox",
+        "label": "form.checkbox.label"
+      }
+    },
+    "required": {
+      "details": "form.required.details"
+    },
+    "btn": {
+      "title": "form.btn.title",
+      "id": "btn-lp-retarget-support-basic-appform"
+    }
+  },
+  "modalReport": {
+    "default": {
+      "imgSrc": "ok.svg",
+      "title": "modal.report.default.title",
+      "details": "modal.report.default.details"
+    },
+    "error": {
+      "imgSrc": "alert.svg",
+      "imgAlt": "modal.report.error.imgAlt",
+      "title": "modal.report.error.title",
+      "details": "modal.report.error.details",
+      "btnTitle": "modal.report.error.btnTitle"
+    }
+  },
+  "ecommerceData": {
+    "id": "106",
+    "name": "BASIC",
+    "price": "8000"
+  }
+}

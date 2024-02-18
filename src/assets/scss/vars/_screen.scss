@@ -1,0 +1,48 @@
+/**
+ * BASE SCREEN MEDIA BREAKPOINTS
+ */
+ //mb - mobile
+ $screen-mb: 576px;
+ $screen-xs: 768px;
+ $screen-sm: 1024px;
+ $screen-md: 1200px;
+ $screen-nb: 1400px;
+ 
+ $screen-mb-max: ($screen-mb - 1px);
+ $screen-xs-max: ($screen-xs - 1px);
+ $screen-sm-max: ($screen-sm - 1px);
+ $screen-md-max: ($screen-md - 1px);
+ $screen-nb-max: ($screen-nb - 1px);
+ 
+ @mixin media-mb-max {
+  @media (max-width: $screen-mb-max) { @content; }
+  }
+  @mixin media-mb-min {
+    @media (min-width: $screen-mb) { @content; }
+  }
+ @mixin media-xs-max {
+   @media (max-width: $screen-xs-max) { @content; }
+ }
+ @mixin media-xs-min {
+   @media (min-width: $screen-xs) { @content; }
+ }
+ @mixin media-sm-max {
+   @media (max-width: $screen-sm-max) { @content; }
+ }
+ @mixin media-sm-min {
+   @media (min-width: $screen-sm) { @content; }
+ }
+ @mixin media-md-max {
+   @media (max-width: $screen-md-max) { @content; }
+ }
+ @mixin media-md-min {
+   @media (min-width: $screen-md) { @content; }
+ }
+ @mixin media-nb-max {
+   @media (max-width: $screen-nb-max) { @content; }
+ }
+ @mixin media-nb-min {
+   @media (min-width: $screen-nb) { @content; }
+ }
+ 
+ 

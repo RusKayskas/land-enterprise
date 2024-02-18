@@ -1,0 +1,108 @@
+@mixin fontWeight($value, $extraBold: 700, $bold: 600, $normal: 400, $light: 300) {
+  @if $value == 'light' {
+    font-weight: $light;
+  } @else if $value == 'bold' {
+    font-weight: $bold;
+  } @else if $value == 'extrabold' {
+    font-weight: $extraBold;
+  } @else {
+    font-weight: $normal;
+  }
+}
+
+@mixin fontSize($value, $big: 30px, $exraLarge: 20px, $large: 17px, $normal: 15px, $small: 13px) {
+  @if $value == 'small' {
+    font-size: $small;
+    line-height: 20px;
+  } @else if $value == 'large' {
+    font-size: $large;
+    line-height: 25px;
+  } @else if $value == 'exraLarge' {
+    font-size: $exraLarge;
+    line-height: 30px;
+  } @else if $value == 'big' {
+    font-size: $big;
+    line-height: 40px;
+  }
+  @else {
+    font-size: $normal;
+    line-height: 20px;
+  }
+}
+
+// $type: ['h1', 'h2', 'h3', 'h4', 'paragraph', 'digit', 'label']
+// $size: ['normal', 'small', 'large']
+// $weight: ['normal', 'light', 'bold']
+@mixin text($type, $size: 'normal', $weight: 'normal') {
+  // font-family: 'OpenSans';
+
+  @if $type == 'h1' {
+    font-size: 25px;
+    line-height: 30px;
+    @include media-xs-min {
+      font-size: 35px;
+      line-height: 45px;
+    }
+    @include media-sm-min {
+      line-height: 55px;
+      font-size: 45px;
+    }
+    @include fontWeight($weight);
+  } @else if $type == 'h2' {
+      font-size: 20px;
+      line-height: 30px;
+    @include media-xs-min {
+      font-size: 28px;
+      line-height: 35px; 
+    }
+    @include media-sm-min {
+      font-size: 35px;
+      line-height: 55px;
+    }
+    @include fontWeight($weight);
+  } @else if $type == 'h3' {
+      font-size: 15px;
+      line-height: 20px; 
+    @include media-xs-min {
+      font-size: 17px;
+      line-height: 25px;
+    }
+    @include media-sm-min {
+      font-size: 20px;
+      line-height: 55px;
+    }
+    @include fontWeight($weight);
+  } @else if $type == 'h4' {
+    font-size: 24px;
+    line-height: 30px;
+    @include fontWeight($weight, $bold: 700, $normal: 600, $light: 400);
+  } @else if $type == 'paragraph' {
+    @include fontSize($size);
+
+    @if $weight != 'bold' {
+      @if $size != 'small' {
+        @include fontWeight($weight);
+      } @else {
+        @include fontWeight($weight, $bold: 700, $normal: 400, $light: 400);
+      }
+    }
+  } @else if $type == 'digit' {
+    font-family: 'Arial';
+    @include fontWeight($weight, $bold: 700, $normal: 400, $light: 400);
+    line-height: 1.33;
+
+    @if $size != 'large' {
+      @include fontSize($size);
+    }
+  } @else if $type == 'label' {
+    @include fontSize($size);
+
+    @if $size == 'small' {
+      @include fontWeight($weight, $bold: 600, $normal: 400, $light: 400);
+      line-height: 1.67;
+    } @else {
+      @include fontWeight($weight);
+      line-height: 20px;
+    }
+  }
+}
